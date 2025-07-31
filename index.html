@@ -1,12 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GitHub Page</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PlateHan in Hongdae</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f6f8f6;
+      color: #2c3e2e;
+    }
+    header {
+      background-color: #a3bfa6;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    .intro {
+      margin-bottom: 2rem;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    .contact {
+      font-size: 1.1rem;
+      text-align: center;
+      margin-top: 2rem;
+    }
+    footer {
+      background-color: #e1e8e3;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #4a5f4a;
+    }
+  </style>
 </head>
 <body>
-    <h1>Plate Han in Hongdae</h1>
-    <p>Diccover the Authentic Way of Kimchi Making.</p>
+  <header>
+    <h1>PlateHan in Hongdae</h1>
+  </header>
+  <main>
+    <section class="intro">
+      <p>
+        At PlateHan, we take pride in offering a truly immersive kimchi-making experience. Every session is thoughtfully crafted with high-quality ingredients and step-by-step guidance. From selecting fresh produce to preparing the space with care, we focus on every detail to ensure an engaging and memorable class.
+      </p>
+    </section>
+
+    <section class="gallery">
+      <img src="kimchi-class1.jpg" alt="Kimchi class preparation" />
+      <img src="kimchi-class2.jpg" alt="Participants making kimchi" />
+      <img src="kimchi-class3.jpg" alt="Ingredients and setup" />
+    </section>
+
+    <section class="contact">
+      <p>If you'd like to join our class, please reserve by emailing us at <a href="mailto:reserve@platehan.com">reserve@platehan.com</a>.</p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 PlateHan. All rights reserved.
+  </footer>
 </body>
 </html>
